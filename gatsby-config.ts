@@ -11,11 +11,11 @@ const config: GatsbyConfig = {
     siteTitle: `Hamza Kebir`,
     siteTitleAlt: `Hamza Kebir`,
     siteHeadline: `Hamza Kebir`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteUrl: `https://hamzakebir.netlify.app/`,
+    siteDescription: `Hamza Kebir a full-stack web developer`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `Kebir`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -27,9 +27,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Hamza Kebir`,
+        short_name: `kebir`,
+        description: `Hamza Kebir a full-stack web developer`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
